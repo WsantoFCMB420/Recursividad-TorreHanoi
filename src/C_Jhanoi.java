@@ -26,7 +26,7 @@ public class C_Jhanoi {
                 System.out.println("Mover disco " + disco + " de " + desde.getNombre() + " a " + hacia.getNombre());
                 mostrarEstado();
             } else {
-                // Si el movimiento es inválido, devolver el disco a su torre original
+
                 desde.agregarDisco(disco);
             }
         }
