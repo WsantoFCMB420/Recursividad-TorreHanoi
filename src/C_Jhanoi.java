@@ -32,7 +32,7 @@ public class C_Jhanoi {
         }
     }
     public void mostrarEstado() {
-        System.out.println("\nEstado actual:");
+        System.out.println("\nEstado actual de las torres:");
         System.out.println(torreorigen);
         System.out.println(torreauxiliar);
         System.out.println(torredestino);
@@ -40,7 +40,7 @@ public class C_Jhanoi {
     }
 
     public void ejecutar(int numDiscos) {
-        System.out.println("\n🔄 Secuencia de movimientos:");
+        System.out.println("\nSecuencia de movimientos para resolver:");
         mostrarEstado();
         resolver(numDiscos, torreorigen, torreauxiliar, torredestino);
     }
